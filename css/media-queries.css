@@ -1,0 +1,167 @@
+@media(max-width: 1200px){
+    html{
+        --pad-x-lg: 5%;        
+    }
+}
+@media(max-width: 992px){
+    html{
+        --pad-x-lg: 2rem;    
+    }
+    .header{
+        transition: all 0.3s ease-in-out;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .header__nav{
+        width: 100%;
+        transition: height 0.3s;
+    }
+    .header-switch{
+        display: block;
+    }    
+    .gear-cage__images{
+        flex-basis: 60%;
+    }
+
+    .gallery__img-container,
+    .gallery__sm-img-row{
+        width: 65%;
+    }
+
+    .footer__outro{
+        width: 40%;
+    }
+}
+@media(max-width: 768px){
+    button:hover{
+        transform: none;
+    }
+    button:focus {
+        transform: scale(0.95);
+    }
+    .header{
+        height: 100vh;
+        margin-right: 60vw;
+    }
+    .header__nav{
+        flex-direction: column;
+        flex-basis: 50%;        
+    }    
+
+    .gear-cage__text{
+        flex-basis: 100%;
+        padding-top: var(--section-pad-y);
+        padding-bottom: calc(var(--section-pad-y) * 0.75);
+    }    
+
+    .gallery__slider{
+        gap: 0;
+    }    
+
+    .gallery__img-container,
+    .gallery__sm-img-row{
+        width: 85%;
+    }
+    .gallery__img-panel{
+        opacity: 1;
+    }
+
+    .js-infinity-moving-row{
+        min-width: 768px;
+    }
+    
+    .footer__block_1{
+        justify-content: flex-start;
+    }
+
+    .footer__outro{        
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px){
+    html {        
+        --pad-x-lg: 1rem;              
+    }
+    h1{
+        font-size: 2.5rem;        
+    }
+    .title-text{
+        font-size: 2rem;
+    }
+
+    .header{        
+        margin-right: 30vw;
+    }
+    .what-we-do__list-item {
+        flex-basis: 100%;
+    }    
+    .what-we-do {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .gear-cage__title{
+        font-size: 1.75rem;   
+    }
+
+    .gallery__img-container,
+    .gallery__sm-img-row{
+        width: 80%;
+    }
+    .gallery__slide-arrow svg{
+        transform: scale(0.6);
+    }    
+    .gallery__wide-img{
+        width: 50vh;                
+    }
+    .footer__subscribe{
+        width: 100%;
+    }
+    .footer__block_2{
+        gap: 0;        
+    }
+}
+
+@media(max-width: 440px){
+    .gear-cage__images{
+        min-height: auto;        
+        height: 300px;
+    }
+}
+
+@media(max-width: 360px) {    
+    .header-switch {
+        padding: 0.4rem;
+    }
+}
+
+@media(max-width: 300px){
+    .header{
+        margin-right: 0 !important;
+    }
+    html {
+        font-size: 12px;
+    }
+
+    .main {
+        height: auto;
+    }
+}
+
+
+
+
+
+@media(min-width: 1200px){
+    html{        
+        --pad-x-lg: 10%;
+    }
+}
+
+@media(min-width: 768px){
+    #sunset-at-mount-fuji_section{
+        background-position: top 124px left 50%;
+    }
+}
